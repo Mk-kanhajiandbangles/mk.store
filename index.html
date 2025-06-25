@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MK Kanha Ji Poshak and Bangles Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>MK Kanha Ji Poshak and Bangles Store</h1>
+    <p>Your one-stop shop for elegant bangles, poshaks & jewellery</p>
+  </header>
+
+  <nav>
+    <a href="#bangles">Bangles</a>
+    <a href="#poshak">Poshak</a>
+    <a href="#jewellery">Jewellery</a>
+    <a href="#cart">Cart</a>
+  </nav>
+
+  <main>
+    <section id="bangles">
+  <h2>Bangles</h2>
+  <div class="product-card">
+    <img src="assets/bangle1.png" alt="Bangle Set (2)" width="200">
+    <h3>Bangle Set (Set of 2)</h3>
+    <p>₹199</p>
+    <button onclick="addToCart('Bangle Set (2)', 199)">Add to Cart</button>
+  </div>
+</section>
+
+    <section id="poshak">
+      <h2>Kanha Ji Poshak</h2>
+      <p>Products will be added soon!</p>
+    </section>
+
+    <section id="jewellery">
+      <h2>Jewellery</h2>
+      <p>Products will be added soon!</p>
+    </section>
+
+    <section id="cart">
+      <h2>Cart</h2>
+      <ul id="cart-list"></ul>
+      <p id="total"></p>
+      <button onclick="checkout()">Proceed to Pay</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 MK Kanha Ji Poshak and Bangles Store</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
